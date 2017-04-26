@@ -7,22 +7,27 @@
   <link rel="stylesheet" href="style.css" type="text/css"> </head>
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-light h-25 fixed-top" style="background-image: url(&quot;banner%20sbitany.png&quot;);background-position: inherit;">
-    <div class="container"> <a class="navbar-brand text-white" href="#">Sbitanydeals</a> <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-               </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <ul class="navbar-nav text-white text-uppercase text-right">
-          <li class="nav-item active"> <a class="nav-link" href="#">Home</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li>
-          <li class="nav-item"> <a class="nav-link active" href="#">Disabled</a> </li>
-          <li class="nav-item"><a class="nav-link" href="#">Nav item</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Nav item</a></li>
+  <section class="navigation">
+    <div class="nav-container">
+      <div class="brand"> <a href="#!">Logo</a> </div>
+      <nav>
+        <div class="nav-mobile"> <a id="nav-toggle" href="#!"><span></span></a> </div>
+        <ul class="nav-list">
+          <li> <a href="#!">Home</a> </li>
+          <li> <a href="#!">About</a> </li>
+          <li> <a href="#!">Services</a>
+            <ul class="nav-dropdown">
+              <li> <a href="#!">Web Design</a> </li>
+              <li> <a href="#!">Web Development</a> </li>
+              <li> <a href="#!">Graphic Design</a> </li>
+            </ul>
+          </li>
+          <li> <a href="#!">Pricing</a> </li>
+          <li> <a href="#!">Contact</a> </li>
         </ul>
-      </div>
+      </nav>
     </div>
-  </nav>
+  </section>
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
   <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
